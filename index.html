@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fingerprint Data</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #e3effa;
+      }
+      #root {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(215, 214, 212);
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Fingerprint Data</h1>
+      <h3 id="fingerprint-hash" style="color: blue"></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Property</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody id="fingerprint-table">
+          <!-- Table data will be dynamically generated here -->
+        </tbody>
+      </table>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

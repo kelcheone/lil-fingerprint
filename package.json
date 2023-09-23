@@ -1,0 +1,9 @@
+{
+  "name": "lil-fingerprint",
+  "version": "1.0.0",
+  "description": "A minimal version of a browser fingerprinting program.",
+  "main": "index.js",
+  "repository": "https://github.com/kelcheone/lil-fingerprint",
+  "author": "kevin kelche",
+  "license": "MIT"
+}
